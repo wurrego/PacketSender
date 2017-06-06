@@ -1,0 +1,63 @@
+{
+  "debug_level": 2,
+  "contentDescriptors": [
+
+    {
+      "name": "SOI_1",
+      "dest_ip": "192.168.1.5",
+      "dest_port": "1582",
+      "average_packets_per_second":  5,
+      "max_packets_per_second": 10,
+      "variable_rate": true,
+      "clock_hz": 10,
+      "start_delay_milliseconds": 1000,
+      "udp_packet": true,
+      "packet_src_address": "178.24.52.1",
+      "packet_dst_address": "239.25.50.55",
+      "packet_src_port": 66851,
+      "packet_dst_port": 9985,
+      "packet_mtu_size_bytes": 500,
+      "packet_variable_size": true,
+      "content_file_path": "content/reut2-001.sgm"
+    },
+
+    {
+      "name": "SOI_2",
+      "dest_ip": "192.168.1.5",
+      "dest_port": "1583",
+      "average_packets_per_second":  2,
+      "max_packets_per_second": 3,
+      "variable_rate": true,
+      "clock_hz": 1,
+      "start_delay_milliseconds": 5000,
+      "udp_packet": true,
+      "packet_src_address": "178.24.53.1",
+      "packet_dst_address": "239.25.50.55",
+      "packet_src_port": 7861,
+      "packet_dst_port": 9985,
+      "packet_mtu_size_bytes": 500,
+      "packet_variable_size": true,
+      "content_file_path": "content/reut2-001.sgm"
+    },
+
+    {
+      "name": "SOI_3",
+      "dest_ip": "192.168.1.5",
+      "dest_port": "1584",
+      "average_packets_per_second":  3,
+      "max_packets_per_second": 4,
+      "variable_rate": true,
+      "clock_hz": 1,
+      "start_delay_milliseconds": 10000,
+      "udp_packet": true,
+      "packet_src_address": "148.175.52.76",
+      "packet_dst_address": "239.27.40.15",
+      "packet_src_port": 9782,
+      "packet_dst_port": 8569,
+      "packet_mtu_size_bytes": 500,
+      "packet_variable_size": true,
+      "content_file_path": "content/reut2-016.sgm"
+    }
+
+  ]
+}
